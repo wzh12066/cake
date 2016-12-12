@@ -11,7 +11,9 @@
     <title>產品管理</title>
 </head>
 <body>
+
 	<%@include file="navbar.jspf" %>
+	
     <div class="container theme-showcase" role="main">
     
       <div class="jumbotron" >    
@@ -29,7 +31,8 @@
 			<input type="password" name="password">
 			<p class="help-block">使用者密碼</p>
 			</div>
-	  		<button type="submit" class="btn btn-default">登入</button>
+	  		<button type="submit" class="btn btn-default">登入(Test！)</button>
+	  		
 	  		<label class="label label-warning">${message}</label>
 		</form>  
 
